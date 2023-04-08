@@ -1,0 +1,68 @@
+.literaryCollection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1619px;
+  width: 90%;
+  margin: 0 auto;
+}
+.star {
+  width: 200px;
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.title {
+  font-family: var(--thirdFont);
+  font-size: 77px;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: center;
+}
+@media only screen and (max-width: 1500px) {
+  .star {
+    width: 180px;
+  }
+  .title {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .star {
+    width: 140px;
+  }
+  .title {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .star {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .titleContainer {
+    align-items: flex-start;
+    gap: 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .star {
+    width: 50px;
+  }
+  .title {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .star {
+    width: 50px;
+  }
+  .title {
+    font-size: 36px;
+  }
+}

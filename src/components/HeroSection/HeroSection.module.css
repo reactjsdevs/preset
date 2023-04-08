@@ -1,0 +1,106 @@
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+  margin: 0 auto;
+  display: block;
+  min-height: 120px;
+}
+.curl {
+  width: 141px;
+  margin-top: -5px;
+}
+.textContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px;
+
+  padding: 40px 0;
+}
+.text {
+  font-family: var(--primaryFont);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.electric {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  max-width: 1700px;
+
+  margin: 0 auto;
+  display: block;
+}
+.title {
+  font-family: var(--secodaryFont);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 130%;
+
+  text-align: center;
+  color: #ce790a;
+  margin-top: -40px;
+  padding: 0 10px;
+}
+.preset {
+  max-width: 400px;
+  width: 90%;
+}
+@media only screen and (max-width: 1199px) {
+  .title {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .title {
+    font-size: 36px;
+  }
+  .curl {
+    width: 90px;
+    margin-top: -5px;
+  }
+  .text {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 28px;
+  }
+  .textContainer {
+    width: 95%;
+  }
+  br {
+    display: none;
+  }
+  .curl {
+    width: 50px;
+    margin-top: 0px;
+  }
+  .text {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .textContainer {
+    width: 95%;
+  }
+
+  .curl {
+    width: 30px;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
